@@ -28,6 +28,23 @@ To automatically load `ox-telegram` with Org mode:
   '(require 'ox-telegram nil t))
 ```
 
+### Doom Emacs:
+
+packages.el:
+
+``` emacs-lisp
+  (package! ox-telegram
+    :recipe (:host github :repo "vasily-fedorov/ox-telegram"))
+```
+
+config.el:
+
+``` emacs-lisp
+(use-package! ox-telegram
+  :after org
+  :config (push "telegram" org-export-backends))
+```
+
 ## Configuration
 
 Customize `org-telegram-escape-special-chars` (default: t) to control whether
