@@ -1,7 +1,7 @@
 ;;; ox-telegram.el --- Telegram MarkdownV2 Back-End for Org Export Engine -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2014-2017 Lars Tveito
-;; Copyright (C) 2024 Modified for Telegram MarkdownV2
+;; Copyright (C) 2026 Modified for Telegram MarkdownV2
 
 ;; Author: Based on ox-gfm by Lars Tveito
 ;; Keywords: org, wp, markdown, telegram
@@ -25,17 +25,6 @@
 
 ;; This library implements a Markdown back-end (Telegram MarkdownV2) for Org
 ;; exporter, based on the `md' back-end.
-
-;; Telegram MarkdownV2 features:
-;; - *bold text*
-;; - _italic text_
-;; - __underline__
-;; - ~strikethrough~
-;; - ||spoiler||
-;; - `inline fixed-width code`
-;; - ```pre-formatted fixed-width code block```
-;; - [inline URL](http://www.example.com/)
-;; - Special characters must be escaped: _ * [ ] ( ) ~ ` > # + - = | { } . !
 
 ;;; Code:
 
