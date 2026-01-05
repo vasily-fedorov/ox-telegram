@@ -13,6 +13,7 @@ Telegram MarkdownV2 supports:
 - `` `inline fixed-width code` ``
 - ```` ```pre-formatted fixed-width code block``` ````
 - `[inline URL](http://www.example.com/)`
+- tables (as code blocks)
 
 **Important**: Special characters must be escaped: `_ * [ ] ( ) ~ \` > # + - = | { } . !`
 
